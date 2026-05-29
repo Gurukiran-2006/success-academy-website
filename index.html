@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Success Academy – Tuition Centre | Bengaluru</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ── MOBILE MENU ── -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="closeMobile()">✕</button>
+  <a href="#home" onclick="closeMobile()">Home</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#classes" onclick="closeMobile()">Classes</a>
+  <a href="#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="#admission-form" onclick="closeMobile()">Admissions</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="https://wa.me/9449522380" class="mobile-wa-btn" target="_blank">💬 WhatsApp Us</a>
+</div>
+
+<!-- ── NAV ── -->
+<nav id="mainNav">
+  <a href="#home" class="nav-logo">
+    <div class="nav-logo-icon">
+        <img src="logo.png" alt="logo">
+    </div>
+    <div class="nav-logo-text">
+      <div class="brand">Success Academy</div>
+      <div class="sub">Tuition Centre · Bengaluru</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#classes">Classes</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#admission-form">Admissions</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-cta">
+    <a href="tel:+918884522380" class="btn-nav-call">📞 Call Us</a>
+    <a href="https://wa.me/919449522380" class="btn-nav-wa" target="_blank">💬 WhatsApp</a>
+  </div>
+  <button class="hamburger" onclick="openMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="home">
+  <div class="hero-bg-rings">
+    <div class="hero-ring"></div>
+    <div class="hero-ring"></div>
+    <div class="hero-ring"></div>
+  </div>
+  <div class="hero-dots"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      <span>Admissions Open · Classes 6–10</span>
+    </div>
+    <h1 class="hero-title">Where Every Child<br><em>Learns to Shine</em></h1>
+    <p class="hero-subtitle">Success Academy Tuition Centre</p>
+    <p class="hero-desc">
+      Quality academic coaching for Classes 6–10 across CBSE, ICSE, and State Board.
+      Small batches. Personalized attention. Proven results since 2015.
+    </p>
+    <div class="hero-actions">
+      <a href="#admission-form" class="btn-primary">✏️ Apply for Admission</a>
+      <a href="https://wa.me/918884522380" class="btn-outline-white" target="_blank">💬 Chat on WhatsApp</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="num"><span class="counter-val" data-target="500">0</span>+</div>
+        <div class="lbl">Students Trained</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num"><span class="counter-val" data-target="25">0</span>+</div>
+        <div class="lbl">Years Experience</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num"><span class="counter-val" data-target="99">0</span>%</div>
+        <div class="lbl">Board Exam Success</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num"><span class="counter-val" data-target="5">0</span></div>
+        <div class="lbl">Class Programs</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT / FOUNDER ── -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal-left">
+      <div class="about-img-placeholder">
+        <div class="gallery-placeholder">
+          <div class="gicon">🏆</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.5);">Founder's Award Photo<br><small style="opacity:.7;">(Update with actual photo)</small></div>
+        </div>
+      </div>
+      <div class="about-award">🥇 Excellence Award 2024</div>
+      <div class="about-badge-float">
+        <div class="icon">📚</div>
+        <div class="info">
+          <div class="val">500+</div>
+          <div class="key">Students Mentored</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal-right">
+      <div class="section-tag"><span>Our Founder</span></div>
+      <h2 class="section-title">Meet <em>Mahesh</em></h2>
+      <p class="section-desc" style="margin-bottom:0;">
+        With over 25+ years of experience in education, Mahesh founded Success Academy with a vision to provide quality tutoring that goes beyond textbooks. His commitment to student success and holistic development has transformed the academic lives of hundreds of students.
+      </p>
+      <ul class="founder-checklist" style="margin-top:24px;">
+        <li>25+ years of dedicated teaching experience</li>
+        <li>Trained 500+ students to academic excellence</li>
+        <li>Passionate about personalized learning & student success</li>
+        <!-- <li>Recognized with the Global Principals Association Excellence Award 2024</li> -->
+        <li>Expert in CBSE, ICSE and State Board curricula</li>
+      </ul>
+      <a href="#admission-form" class="btn-secondary">Enroll Your Child Today →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY CHOOSE ── -->
+<section id="why">
+  <div class="why-layout">
+    <div class="reveal-left">
+      <div class="section-tag"><span>Why Us</span></div>
+      <h2 class="section-title">Why Choose<br><em>Success</em> Academy?</h2>
+      <p class="section-desc">We go beyond regular tuition — we build confident learners and future achievers.</p>
+      <div class="why-list" style="margin-top:28px;">
+        <div class="why-item reveal delay-1"><div class="check">✓</div><span>Personalized attention for each student with small batch sizes</span></div>
+        <div class="why-item reveal delay-2"><div class="check">✓</div><span>Regular parent-teacher interactions and progress tracking</span></div>
+        <div class="why-item reveal delay-3"><div class="check">✓</div><span>Comprehensive study materials and practice tests</span></div>
+        <div class="why-item reveal delay-4"><div class="check">✓</div><span>Strong emphasis on conceptual clarity over rote learning</span></div>
+        <div class="why-item reveal delay-5"><div class="check">✓</div><span>Mock tests and performance analysis for better learning</span></div>
+        <div class="why-item reveal"><div class="check">✓</div><span>Flexible learning schedules to suit all lifestyles</span></div>
+        <div class="why-item reveal"><div class="check">✓</div><span>Board exam preparation with proven strategies</span></div>
+      </div>
+    </div>
+    <div class="why-features reveal-right">
+      <div class="feature-card delay-1">
+        <div class="feature-icon">👨‍🏫</div>
+        <h3>Experienced Teachers</h3>
+        <p>Highly qualified educators dedicated to student success and personal growth with proven track records.</p>
+      </div>
+      <div class="feature-card delay-2">
+        <div class="feature-icon">🏆</div>
+        <h3>Proven Results</h3>
+        <p>99% board exam success rate with consistent top academic performance year after year.</p>
+      </div>
+      <div class="feature-card delay-3">
+        <div class="feature-icon">⭐</div>
+        <h3>Holistic Development</h3>
+        <p>Focus on both academics and character building for well-rounded growth and life skills.</p>
+      </div>
+      <div class="feature-card delay-4">
+        <div class="feature-icon">📊</div>
+        <h3>Progress Tracking</h3>
+        <p>Regular assessments, detailed reports and open communication with parents every step of the way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TIMINGS ── -->
+<section id="timings">
+  <div class="timings-inner">
+    <div class="section-tag" style="background:rgba(201,150,58,0.15);margin:0 auto 16px;display:table;"><span>Schedule</span></div>
+    <h2 class="section-title" style="text-align:center;">Tuition <em>Timings</em></h2>
+    <!-- <p style="color:rgba(255,255,255,.5);text-align:center;margin-top:8px;font-size:15px;">Multiple batches available. Choose what suits you best.</p> -->
+    <div class="timings-grid reveal">
+      <div class="timing-card">
+        <div class="icon">🌆</div>
+        <div class="batch-label">Evening Batch</div>
+        <div class="time">6:30 – 8:30 PM</div>
+        <div class="days">Mon – Fri</div>
+      </div>
+      <div class="timing-card">
+        <div class="icon">🌅</div>
+        <div class="batch-label">Evening Batch</div>
+        <div class="time">4:00 – 7:00 PM</div>
+        <div class="days">Saturday</div>
+      </div>
+      <div class="timing-card">
+        <div class="icon">📝</div>
+        <div class="batch-label">Sunday</div>
+        <div class="time">Mock Test</div>
+        <div class="days">Every Sunday</div>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:28px;color:rgba(255,255,255,.35);font-size:12px;">* Timings are subject to change. Contact us for exact batch timings.</p>
+  </div>
+</section>
+
+<!-- ── CLASSES ── -->
+<section id="classes">
+  <div class="classes-inner">
+    <div class="classes-header reveal">
+      <div class="section-tag" style="margin:0 auto 16px;display:table;"><span>Programs</span></div>
+      <h2 class="section-title" style="text-align:center;">Classes 6–10 <em>Programs</em></h2>
+      <p class="section-desc" style="margin:0 auto;text-align:center;">Tailored programs for every stage of academic growth</p>
+    </div>
+
+    <div class="program-block">
+      <div class="program-heading reveal">
+        <div class="prog-num">1</div>
+        <div>
+          <h3>Classes 6–7 · Foundation & Core Development</h3>
+          <p>Building strong fundamentals and core academic skills</p>
+        </div>
+      </div>
+      <div class="class-cards">
+        <div class="class-card reveal delay-3">
+          <div class="class-num">6</div>
+          <div class="class-focus">Foundation Building</div>
+          <div class="class-subjects">Math, Science, Social, Kannada, English, Hindi</div>
+          <div class="board-tags"><span class="board-tag">All Boards</span></div>
+          <a href="#admission-form" class="class-apply-link">Apply Now →</a>
+        </div>
+        <div class="class-card reveal delay-4">
+          <div class="class-num">7</div>
+          <div class="class-focus">Core Skills</div>
+          <div class="class-subjects">Math, Science, Social, Kannada, English, Hindi</div>
+          <div class="board-tags"><span class="board-tag">All Boards</span></div>
+          <a href="#admission-form" class="class-apply-link">Apply Now →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: Classes 8–9 -->
+    <div class="program-block">
+      <div class="program-heading reveal">
+        <div class="prog-num">2</div>
+        <div>
+          <h3>Classes 8–9 · Intermediate &amp; Advanced Growth</h3>
+          <p>Deepening concepts and preparing for board-level thinking</p>
+        </div>
+      </div>
+      <div class="class-cards">
+        <div class="class-card reveal delay-1">
+          <div class="class-num">8</div>
+          <div class="class-focus">Intermediate Growth</div>
+          <div class="class-subjects">Physics, Chemistry, Biology, Maths, Kannada, Hindi, English</div>
+          <div class="board-tags">
+            <span class="board-tag">CBSE</span>
+            <span class="board-tag">ICSE</span>
+            <span class="board-tag">State Board</span>
+          </div>
+          <a href="#admission-form" class="class-apply-link">Apply Now →</a>
+        </div>
+        <div class="class-card reveal delay-2">
+          <div class="class-num">9</div>
+          <div class="class-focus">Advanced Concepts</div>
+          <div class="class-subjects">Science (PCB), Mathematics, Kannada, Hindi, English, Social Studies</div>
+          <div class="board-tags">
+            <span class="board-tag">CBSE</span>
+            <span class="board-tag">ICSE</span>
+            <span class="board-tag">State Board</span>
+          </div>
+          <a href="#admission-form" class="class-apply-link">Apply Now →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3: Class 10 -->
+    <div class="program-block">
+      <div class="program-heading reveal">
+        <div class="prog-num">3</div>
+        <div>
+          <h3>Class 10 · Board Exam Preparation</h3>
+          <p>Specialized preparation for CBSE, ICSE, and State Board with focused exam strategies</p>
+        </div>
+      </div>
+      <div class="class-cards">
+        <div class="class-card reveal delay-1">
+          <div class="class-num">10</div>
+          <div class="class-focus">Board Exam Focus</div>
+          <div class="class-subjects">Complete Board Syllabus</div>
+          <div class="board-tags">
+            <span class="board-tag">CBSE</span>
+            <span class="board-tag">ICSE</span>
+            <span class="board-tag">State Board</span>
+          </div>
+          <a href="#admission-form" class="class-apply-link">Apply Now →</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:20px;" class="reveal">
+      <a href="#admission-form" class="btn-secondary" style="font-size:15px;padding:16px 40px;">Apply for a Class →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section id="gallery">
+  <div class="gallery-inner">
+    <div class="gallery-header reveal">
+      <div>
+        <div class="section-tag"><span>Gallery</span></div>
+        <h2 class="section-title" style="margin-bottom:0;">Gallery <em>Preview</em></h2>
+      </div>
+      <a href="#contact" class="view-all-btn">View All Photos →</a>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gallery-item g-blue" style="aspect-ratio:16/9;grid-column:span 2;">
+        <div class="gallery-placeholder"><div class="gicon">🎓</div><div>10th State Toppers — Batch Results</div></div>
+        <div class="gallery-overlay"><span>State Toppers · Class 10</span></div>
+      </div>
+      <div class="gallery-item g-navy">
+        <div class="gallery-placeholder"><div class="gicon">📸</div><div>Classroom Session</div></div>
+        <div class="gallery-overlay"><span>Classroom Activity</span></div>
+      </div>
+      <div class="gallery-item g-gold">
+        <div class="gallery-placeholder"><div class="gicon">🏅</div><div>9th & 10th Achievers</div></div>
+        <div class="gallery-overlay"><span>CBSE / ICSE Achievers</span></div>
+      </div>
+      <div class="gallery-item g-blue">
+        <div class="gallery-placeholder"><div class="gicon">👨‍🎓</div><div>Graduation Group Photo</div></div>
+        <div class="gallery-overlay"><span>Student Batch 2024</span></div>
+      </div>
+      <div class="gallery-item g-navy">
+        <div class="gallery-placeholder"><div class="gicon">📝</div><div>Exam Prep Session</div></div>
+        <div class="gallery-overlay"><span>Mock Test Session</span></div>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:20px;font-size:13px;color:var(--text-light);">📸 Upload your actual gallery photos to replace these placeholders.</p>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section id="testimonials">
+  <div class="testimonials-inner">
+    <div class="testimonials-header reveal">
+      <div class="section-tag" style="display:table;margin:0 auto 16px;"><span>Testimonials</span></div>
+      <h2 class="section-title" style="text-align:center;">What <em>Parents</em> Say</h2>
+    </div>
+    <div class="testimonials-track">
+      <div class="testimonial-card reveal delay-1">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="text">My child's marks improved significantly after joining Success Academy. The teachers are extremely dedicated and the personal attention makes all the difference.</p>
+        <div class="author">
+          <div class="author-avatar">P</div>
+          <div class="author-info">
+            <div class="name">Parent of Class 10 Student</div>
+            <div class="role">State Board · 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal delay-2">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="text">Excellent coaching centre. My daughter scored 99.2% (620/625) in her board exams. Mr. Mahesh teaching method is truly outstanding and unique.</p>
+        <div class="author">
+          <div class="author-avatar">R</div>
+          <div class="author-info">
+            <div class="name">Parent of Deekshitha</div>
+            <div class="role">State Board · 620/625</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal delay-3">
+        <span class="quote-mark">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="text">Best tuition in Anchepalya. Small batches, focused teaching and regular parent updates. My son went from average to topper in just one year. Highly recommended!</p>
+        <div class="author">
+          <div class="author-avatar">S</div>
+          <div class="author-info">
+            <div class="name">Parent of Class 9 Student</div>
+            <div class="role">State Board · 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ADMISSIONS CTA ── -->
+<section id="admissions">
+  <div class="cta-inner reveal">
+    <div class="section-tag" style="background:rgba(201,150,58,0.15);border-color:rgba(201,150,58,.3);margin:0 auto 20px;display:table;"><span>Enroll Now</span></div>
+    <h2>Admissions Open for<br><em>Classes 6–10</em></h2>
+    <p>Join Success Academy and give your child a strong foundation for academic success and a bright future.</p>
+    <div class="cta-actions">
+      <a href="#admission-form" class="btn-cta-apply">✏️ Apply Now →</a>
+      <a href="https://wa.me/919449522380" class="btn-cta-wa" target="_blank">💬 WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ADMISSION FORM ── -->
+<section id="admission-form">
+  <div class="form-inner">
+    <div class="form-header reveal">
+      <div class="section-tag" style="display:table;margin:0 auto 16px;"><span>Apply Now</span></div>
+      <h2 class="section-title" style="text-align:center;">Admission <em>Form</em></h2>
+      <p class="section-desc" style="margin:0 auto;text-align:center;">Fill in the form and we'll reach out to confirm your slot</p>
+    </div>
+    <div class="form-card reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Student Name <span>*</span></label>
+          <input type="text" class="form-control" placeholder="Enter student's name">
+        </div>
+        <div class="form-group">
+          <label>Parent / Guardian Name <span>*</span></label>
+          <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone Number <span>*</span></label>
+          <input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" class="form-control" placeholder="Your email (optional)">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Class for Admission <span>*</span></label>
+          <select class="form-control">
+            <option value="">Select a class</option>
+            <!-- <option>Class 1</option><option>Class 2</option><option>Class 3</option>
+            <option>Class 4</option><option>Class 5</option> -->
+            <option>Class 6</option> 
+            <option>Class 7</option><option>Class 8</option><option>Class 9</option>
+            <option>Class 10</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Board / Syllabus Type <span>*</span></label>
+          <select class="form-control">
+            <option value="">Select Board</option>
+            <option>CBSE</option><option>ICSE</option><option>State Board (Karnataka)</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Message / Questions</label>
+        <textarea class="form-control" placeholder="Tell us about your child's academic background or any questions you have…"></textarea>
+      </div>
+      <button class="btn-submit" onclick="submitForm()">
+        💬 Send via WhatsApp
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section id="faq">
+  <div class="faq-inner">
+    <div class="faq-header reveal">
+      <div class="section-tag" style="display:table;margin:0 auto 16px;"><span>FAQ</span></div>
+      <h2 class="section-title" style="text-align:center;">Frequently Asked <em>Questions</em></h2>
+    </div>
+    <div class="reveal">
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What is the admission eligibility?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"><p>Students from Class 6 to Class 10 are eligible to enroll. We welcome students from CBSE, ICSE, and Karnataka State Board. A brief interaction session is conducted before confirmation to understand the student's current level.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What is the fee structure?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"><p>Fee varies by class and subjects. Please contact us directly at +91-9449522380 or via WhatsApp to get the current fee structure tailored to your child's class and board.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>What are the class timings?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"><p>We have batches starting from evening (6:30–8:30 PM) batches, Monday to Friday and on saturday the timings will be from 4:00-7:00PM. Timings are allocated based on availability and student preference.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>Do you provide study materials?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"><p>Yes! We provide comprehensive study materials, worksheets, practice tests, and previous year question papers. All materials are curated by our experienced faculty to align with the board curriculum.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span>How can I track my child's progress?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer"><p>We conduct regular assessments and mock tests. Parents receive detailed performance reports and are invited for periodic parent-teacher meetings. You can also contact the faculty anytime for updates.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT / FOOTER ── -->
+<footer id="contact">
+  <div class="contact-inner">
+    <div class="footer-top">
+      <div class="footer-brand reveal-left">
+        <div style="width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:26px;">🌙</div>
+        <div class="brand-title">Success Academy<br>TUITION CENTRE</div>
+        <p>Providing quality education and academic excellence for students in classes 6–10 under the leadership of Founder <strong style="color:rgba(255,255,255,.7);">Mahesh</strong>.</p>
+        <div class="social-row">
+          <!-- change instagram id -->
+          <!-- <a href="https://instagram.com/parishramapatashala" class="social-btn" target="_blank" title="Instagram">📷</a> -->
+           
+          <a href="https://wa.me/919449522380" class="social-btn" target="_blank" title="WhatsApp">💬</a>
+          <a href="mailto:successacademy197@gmail.com" class="social-btn" title="Email">✉️</a>
+        </div>
+        <a href="https://wa.me/919449522380" class="wa-footer-btn" target="_blank">💬 Chat on WhatsApp</a>
+      </div>
+
+      <div class="footer-col reveal delay-1">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#admission-form">Admissions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col reveal delay-2">
+        <h4>Programs</h4>
+        <ul class="footer-links">
+          <!-- <li><a href="#classes">Class 1–2 (Foundation)</a></li>
+          <li><a href="#classes">Class 3–4 (Core Skills)</a></li> -->
+          <li><a href="#classes">Class 6 (Foundations)</a></li>
+          <li><a href="#classes">Class 7 (Core skills)</a></li>
+          <li><a href="#classes">Class 8 (Intermediate)</a></li>
+          <li><a href="#classes">Class 9 (Advanced)</a></li>
+          <li><a href="#classes">Class 10(Board Prep)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col reveal delay-3">
+        <h4>Contact Us</h4>
+        <div class="contact-item">
+          <span class="ci-icon">📞</span>
+          <div class="ci-text">
+            <a href="tel:+919449522380">+91-9449522380</a><br>
+            <a href="tel:+918884522380">+91-8884522380</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">✉️</span>
+          <!-- change mail -->
+          <div class="ci-text"><a href="mailto:successacademy197@gmail.com">successacademy197@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">📍</span>
+          <div class="ci-text">Behind Prestige Jindal City Apartment, near Anjaneya Temple Road, Anchepalya, Bengaluru, Madanayakanahalli, Karnataka 560073</div>
+        </div>
+        <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248743.7648978934!2d77.17624879453126!3d13.059758699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae23465d52ea11%3A0xc961e1af3f514485!2sSuccess%20Academy!5e0!3m2!1sen!2sin!4v1779979087623!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Success Academy Tuition Centre · Founded by Mahesh · All Rights Reserved.</p>
+      <p>Built with ❤️ for Academic Excellence · <a href="mailto:successacademy197@gmail.com">Contact</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
